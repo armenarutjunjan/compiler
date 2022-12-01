@@ -1,0 +1,10 @@
+@import "~foundation-sites/scss/foundation";
+@include foundation-everything(false);
+
+
+// Custom Imports
+@import "global/variables";
+
+body{
+	background-color: $background_color_body;
+}
